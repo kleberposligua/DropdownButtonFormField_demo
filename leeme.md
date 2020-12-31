@@ -7,7 +7,8 @@ Contenido.
 - 5 Construir el DropdownButtonFormField
 - 6 Capturas
 - 7 Link descarga desde github
-- 8 Referencias bibliográficas
+- 8 Instrucciones de instalación
+- 9 Referencias bibliográficas
 ### 1. Resumen
 **DropdownButtonFormField** se trata de un widget DropdownButton (cuadro combinado) para ser utilizado en un formulario. 
 El presente documento muestra el funcionamiento en Flutter del widget DropdownButtonFormField, a partir de datos obtenidos desde un servicio RESTFul API. Primero se ha construido el modelo en base a los datos proporcionados por el servicio RESTful, luego con la ayuda del paquete http se creó la función adecuada para consumir estos datos. A continuación, se construyó el DropdownButton en un formulario. Finalmente los datos se validan y al seleccionar un elemento del dropdownButtonFormField, se muestra en el scaffold (usando el snackbar) el id del dato seleccionado.
@@ -143,7 +144,13 @@ Hay que considerar 2 pasos: primero llenar el DropDownMenuItem y luego con estos
 https://github.com/kleberposligua/DropdownButtonFormField_demo.git
 ~~~
 
-### 8. Referencias bibliográficas:
+### 8. Instrucciones de instalación
+~~~
+- Descomprima el proyecto en su equipo local e ingrese en la carpeta donde el proyecto fue descomprimido
+- Ejecute el comando: flutter pub get
+~~~
+
+### 9. Referencias bibliográficas:
 - https://www.youtube.com/watch?v=DvvnhRo0kHQ
 - https://api.flutter.dev/flutter/material/DropdownButtonFormField/DropdownButtonFormField.html
 - https://www.youtube.com/watch?v=0QCv9Bkut1Q
