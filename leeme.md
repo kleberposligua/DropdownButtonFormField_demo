@@ -119,19 +119,22 @@ a) En un Widget **DropdownMenuItem** se carga la lista de jugadores, llamando al
 
 
  - **Modelo generado automáticamente**
+ 
  ![Modelo generado](https://i.ibb.co/8sfgPtB/img-model.jpg)
 
 
  - **Interfaz de usuario**
+ 
  ![Interfaz de usuario](https://i.ibb.co/nsnFYYS/ui05.jpg)
 
 
 
 - **DropdownButtonFormField desplegado**
+
 ![Cuadro combinado desplegado](https://i.ibb.co/H4D1ywN/ui06.jpg)
 
 
-### 7. Referencias bibliográficas:
+### 7. Link descarga desde github:
 ~~~
 https://github.com/kleberposligua/DropdownButtonFormField_demo.git
 ~~~
