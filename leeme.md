@@ -64,8 +64,8 @@ Future<List<JugadorModel>> getJugadores() async {
 - Este método recupera un listado de jugadores de fútbol.
 
 ### 5 Construir el DropdownButtonFormField
-Hay que considerar 2 pasos: primero llenar el DropDownMenuItem y luego estos datos, configurar el DropDownButtonFormField:
-a) En un Widget **DropdownMenuItem** se carga la lista de jugadores, llamando al método creado en la clase del paso anterior. La variable **_jugadores** recibirá los items del tipo DropdownMenuItem.
+Hay que considerar 2 pasos: primero llenar el DropDownMenuItem y luego con estos datos, configurar el DropDownButtonFormField:
+- (a) En un Widget **DropdownMenuItem** se carga la lista de jugadores, llamando al método creado en la clase del paso anterior. La variable **_jugadores** recibirá los items del tipo DropdownMenuItem.
 ~~~
   _getJugadores() async {
     var _jugadorProvider = JugadorProvider(); 
@@ -89,7 +89,7 @@ a) En un Widget **DropdownMenuItem** se carga la lista de jugadores, llamando al
   }
 ~~~
  
- b) Ahora, ya se pueden configurar el **DropdownButtonField** pasándole a la propiedad **items** el valor de la variable **_jugadores**. Otro propiedad importante es **onSaved**, que se ejecuta una vez que el formulario ha sido validado correctamente. Los formularios incluyen la propiedad **validators** para las operaciones de validación. Se ha utilizado **setState** para almacenar el dato seleccionado en el dropdown, y por consiguiente actualizarlo. La propiedad **value** nos permite establecer un valor por defecto cuando se muestra el DropdownButtonFormField; pero se puede prescindir de este valor.
+- (b) Ahora, ya se puede configurar el **DropdownButtonField** pasándole a la propiedad **items** el valor de la variable **_jugadores**. Otro propiedad importante es **onSaved**, que se ejecuta una vez que el formulario ha sido validado correctamente. Los formularios incluyen la propiedad **validators** para las operaciones de validación. Se ha utilizado **setState** para almacenar el dato seleccionado en el dropdown, y por consiguiente actualizarlo. La propiedad **value** nos permite establecer un valor por defecto cuando se muestra el DropdownButtonFormField; pero se puede prescindir de este valor.
  
  ~~~
  Widget _crearDropDownJugadores() {
@@ -113,6 +113,10 @@ a) En un Widget **DropdownMenuItem** se carga la lista de jugadores, llamando al
  ~~~
  
  ### 6. Capturas
+ - **Estructura del proyecto**
+ 
+ ![Estructura del proyecto](https://i.ibb.co/SPt767L/estructuraproy.jpg)
+ 
  - **Datos en formato JSON**
 
 ![Formato JSON](https://i.ibb.co/yS3XmN9/formato-Json.png)
