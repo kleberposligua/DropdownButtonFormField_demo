@@ -14,11 +14,11 @@ El presente documento muestra el funcionamiento en Flutter del widget DropdownBu
 
 ### 2. Librearías necesarias!
   En el archivo pubspec.yaml agregue la referencia al paqute http
-dependencies:  
+- dependencies:  
     http: ^0.12.0+2
 
 ### 3. Creación del modelo:
-  Para crear el modelo de manera automática, se utilizó el servicio siguiente: (el mismo que permite generar el modelo a partir de datos en formato JSON)
+  Para crear el modelo de manera automática, se utilizó el siguiente enlance: (el mismo que permite generar el modelo a partir de datos en formato JSON)
   >https://app.quicktype.io/
  
  Detalle del formato JSON utilizado:
